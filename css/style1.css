@@ -2228,9 +2228,9 @@ footer {
 }
 
 @media (max-width: 550px) {
-    .sectiont1 {
+    /* .sectiont1 {
         display: none;
-    }
+    } */
     .sectiont2 {
         display: none;
     }
@@ -2262,12 +2262,17 @@ footer {
         bottom: 75px
     }
     .hero__home1 img {
-        width: 8em;
+        width: 13em;
+    }
+    .hero__home1 {
+        position: absolute;
+        bottom: 59%;
+        left: 0%;
     }
     #sinyal3 {
         position: absolute;
-        top: -64px;
-        left: 23px;
+        top: -54px;
+        left: 49px;
         width: 1em;
         height: 10em;
         transform: rotate(239deg);
@@ -2317,23 +2322,23 @@ footer {
     }
     #sinyal5 {
         position: absolute;
-        top: -56px;
-        left: 9px;
-        width: 1em;
+        top: -54px;
+        left: 13px;
+        width: 0.5em;
         height: 10em;
     }
     #sinyal8 {
         position: absolute;
-        top: -36px;
-        left: 16px;
-        width: 1.3em;
+        top: -54px;
+        left: 10px;
+        width: 0.4em;
         height: 10em;
     }
     #sinyal7 {
         position: absolute;
-        top: -49px;
-        left: 67px;
-        width: 0.8em;
+        top: -61px;
+        left: 26px;
+        width: 0.4em;
         height: 10em;
         transform: rotate(233deg);
     }
@@ -2355,7 +2360,7 @@ footer {
         }
     }
     .hero__title {
-        top: -22em;
+        top: -27em;
         right: 2em;
     }
     #asap {
@@ -2363,34 +2368,34 @@ footer {
         bottom: -10px;
         right: 0;
         left: auto;
-        width: 12em;
-        height: 7em;
+        width: 7em;
+        height: 4em;
     }
     .hero__cloud2 {
         position: absolute;
-        bottom: 10em;
-        left: 4%;
+        bottom: 12em;
+        left: 24%;
     }
     .hero__cloud1 {
         position: absolute;
-        bottom: 28em;
+        bottom: 32em;
         left: 17%;
     }
     .hero__cloud6 {
-        bottom: 33em;
+        bottom: 36em;
         right: 5em;
     }
     .hero__cloud3 {
-        bottom: 37em;
+        bottom: 39em;
         left: 0em;
     }
     .hero__cloud4 {
-        bottom: 16em;
+        bottom: 19em;
         left: 36%;
     }
     .hero__cloud5 {
-        bottom: 6em;
-        right: 4em;
+        bottom: 9em;
+        right: 6em;
     }
     .hero__title img {
         width: 23em;
@@ -2403,21 +2408,21 @@ footer {
     }
     .hero__home7 {
         position: absolute;
-        bottom: 45%;
-        left: 8em;
+        bottom: 30%;
+        left: 12em;
     }
     #sinyal9 {
         position: absolute;
-        top: 5em;
-        right: 3em;
-        width: 1em;
+        top: 6.1em;
+        right: 2em;
+        width: 0.5em;
         height: 2em;
         transform: rotate(233deg);
     }
     #sinyal4 {
         top: -62px;
-        left: 0px;
-        width: 1em;
+        left: 6px;
+        width: 0.5em;
         height: 10em;
         transform: rotate(239deg);
     }
@@ -2426,7 +2431,7 @@ footer {
         padding: 0px 15px;
     }
     .hero__home7 img {
-        width: 10em;
+        width: 4em;
     }
     .hero__home2 {
         position: absolute;
@@ -2442,5 +2447,19 @@ footer {
     .hero__home3 {
         bottom: 37%;
         left: 76%;
+    }
+    .sectiont1__wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sectiont1__content img {
+        width: 320px;
+    }
+    .sectiont1__q2 img {
+        width: 6em;
+    }
+    .sectiont1__q1 img {
+        width: 14em;
     }
 }
