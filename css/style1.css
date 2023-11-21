@@ -2280,7 +2280,12 @@ footer {
         bottom: -35%;
     }
     .hero__bts img {
-        width: 4em;
+        width: 12em;
+    }
+    .hero__bts {
+        position: absolute;
+        bottom: 96%;
+        left: 3%;
     }
     .hero__home5 img {
         width: 4em;
@@ -2336,7 +2341,7 @@ footer {
         }
     }
     .hero__title {
-        top: -18em;
+        top: -29em;
         right: 3em;
     }
     #asap {
@@ -2358,7 +2363,7 @@ footer {
         left: 5%;
     }
     .hero__cloud6 {
-        bottom: 27em;
+        bottom: 22em;
         right: 5em;
     }
     .hero__cloud3 {
@@ -2386,5 +2391,20 @@ footer {
         position: absolute;
         bottom: 45%;
         left: 12em;
+    }
+    #sinyal9 {
+        position: absolute;
+        top: 5em;
+        right: 3em;
+        width: 1em;
+        height: 2em;
+        transform: rotate(233deg);
+    }
+    #sinyal4 {
+        top: -62px;
+        left: 0px;
+        width: 1em;
+        height: 10em;
+        transform: rotate(239deg);
     }
 }
