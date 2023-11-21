@@ -2280,7 +2280,7 @@ footer {
         bottom: -35%;
     }
     .hero__bts img {
-        width: 12em;
+        width: 8em;
     }
     .hero__bts {
         position: absolute;
@@ -2303,17 +2303,16 @@ footer {
         width: 2em;
     }
     #sinyal2 {
-        top: -45px;
+        top: -19px;
         left: 0;
-        width: 1em;
+        width: 2em;
         height: 10em;
-        transform: rotateY(150deg);
     }
     #sinyal1 {
         position: absolute;
-        top: -45px;
+        top: -19px;
         right: 0;
-        width: 1em;
+        width: 2em;
         height: 10em;
     }
     #sinyal5 {
@@ -2322,6 +2321,21 @@ footer {
         left: 9px;
         width: 1em;
         height: 10em;
+    }
+    #sinyal8 {
+        position: absolute;
+        top: -36px;
+        left: 16px;
+        width: 1.3em;
+        height: 10em;
+    }
+    #sinyal7 {
+        position: absolute;
+        top: -49px;
+        left: 67px;
+        width: 0.8em;
+        height: 10em;
+        transform: rotate(233deg);
     }
     #sinyal6 {
         position: absolute;
@@ -2341,16 +2355,16 @@ footer {
         }
     }
     .hero__title {
-        top: -29em;
-        right: 3em;
+        top: -22em;
+        right: 2em;
     }
     #asap {
         position: absolute;
-        bottom: -7px;
+        bottom: -10px;
         right: 0;
         left: auto;
-        width: 10em;
-        height: 6em;
+        width: 12em;
+        height: 7em;
     }
     .hero__cloud2 {
         position: absolute;
@@ -2359,27 +2373,27 @@ footer {
     }
     .hero__cloud1 {
         position: absolute;
-        bottom: 9em;
-        left: 5%;
+        bottom: 28em;
+        left: 17%;
     }
     .hero__cloud6 {
-        bottom: 22em;
+        bottom: 33em;
         right: 5em;
     }
     .hero__cloud3 {
-        bottom: 22em;
-        left: 3em;
+        bottom: 37em;
+        left: 0em;
     }
     .hero__cloud4 {
-        bottom: 14em;
-        left: 60%;
+        bottom: 16em;
+        left: 36%;
     }
     .hero__cloud5 {
-        bottom: 7em;
-        right: 7em;
+        bottom: 6em;
+        right: 4em;
     }
     .hero__title img {
-        width: 20em;
+        width: 23em;
     }
     .hero__home4 {
         position: absolute;
@@ -2390,7 +2404,7 @@ footer {
     .hero__home7 {
         position: absolute;
         bottom: 45%;
-        left: 12em;
+        left: 8em;
     }
     #sinyal9 {
         position: absolute;
@@ -2406,5 +2420,27 @@ footer {
         width: 1em;
         height: 10em;
         transform: rotate(239deg);
+    }
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .hero__home7 img {
+        width: 10em;
+    }
+    .hero__home2 {
+        position: absolute;
+        bottom: 42%;
+        left: 35%;
+    }
+    .hero__home6 {
+        display: none;
+    }
+    .hero__home4 {
+        display: none;
+    }
+    .hero__home3 {
+        bottom: 37%;
+        left: 76%;
     }
 }
