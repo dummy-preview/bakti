@@ -1,15 +1,6 @@
 $(document).ready(function() {
-
-    // s preload
-    if ($(window).load(function() {
-            $("#preloader").delay(3500).fadeOut("slow", function() {
-                $(this).remove()
-            })
-        }))
-    // e preload
-
     // s backtotop
-        var toggleHeight = $(window).outerHeight() * 1;
+    var toggleHeight = $(window).outerHeight() * 1;
 
     $(window).scroll(function() {
         if ($(window).scrollTop() > toggleHeight) {
@@ -67,10 +58,10 @@ var swiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination'
     },
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
 });
 
@@ -413,12 +404,9 @@ function birdMorph() {
     });
     TweenMax.to('#svgBird', 8, {
         x: 1300,
-        //  delay: 1,
         ease: Power0.easeNone,
         repeat: -1,
         y: -125,
-
-        //  duration: 0.5,
     })
 }
 
