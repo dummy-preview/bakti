@@ -59,7 +59,7 @@ var swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination'
     },
     autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
     },
 
